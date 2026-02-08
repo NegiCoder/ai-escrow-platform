@@ -1,116 +1,83 @@
-🚀 AI-Assisted Escrow Platform
+# 🚀 AI-Assisted Escrow Platform
 
-An AI-powered escrow system designed to securely manage transactions between buyers and sellers using role-based workflows, secure fund locking, and blockchain integration.
-Built with scalability, security, and real-world fintech use cases in mind.
+An **AI-powered escrow system** designed to securely manage transactions between buyers and sellers using **role-based workflows**, **secure fund locking**, and **blockchain integration**.  
+Built with scalability, security, and real-world **fintech use cases** in mind.
 
-🔥 Key Features
+---
 
-🔐 Role-Based Access Control
+## 🔥 Key Features
 
-Buyer, Seller, and Admin roles
+### 🔐 Role-Based Access Control
+- Buyer, Seller, and Admin roles
+- Secure authentication and authorization using **Spring Security**
 
-Secure authorization using Spring Security
+### 🤝 Escrow Deal Lifecycle
+- Deal creation, acceptance, completion, and cancellation
+- Funds remain locked until predefined conditions are fulfilled
 
-🤝 Escrow Deal Lifecycle
+### ⛓️ Blockchain-Backed Escrow
+- Smart contract integration for transparent and tamper-proof fund holding
+- **Hardhat-based local Ethereum network** for development and testing
 
-Deal creation, acceptance, completion, and cancellation
+### 🤖 AI-Assisted Risk Analysis *(Planned)*
+- Transaction risk scoring
+- Fraud and dispute prediction using behavioral patterns
 
-Funds locked until predefined conditions are met
+### ⚖️ Dispute Resolution System
+- Admin-controlled dispute handling
+- Audit-friendly transaction and activity logs
 
-⛓️ Blockchain-Backed Escrow
+### 🧩 Modular & Scalable Architecture
+- Clean separation of controllers, services, and repositories
+- Designed for extensibility and future microservices migration
 
-Smart contract integration for transparent fund holding
+---
 
-Hardhat-based local blockchain setup
+## 🛠 Tech Stack
 
-🤖 AI-Assisted Risk Analysis (Planned)
+### Backend
+- Java  
+- Spring Boot  
+- Spring Security  
+- JPA / Hibernate  
 
-Transaction risk scoring
+### Blockchain
+- Solidity  
+- Hardhat  
+- Local Ethereum Network  
 
-Fraud and dispute prediction using behavioral patterns
+### Database
+- MySQL / PostgreSQL *(configurable)*  
 
-⚖️ Dispute Resolution System
+### Tools
+- Maven  
+- Git & GitHub  
 
-Admin-controlled dispute handling
+---
 
-Audit-friendly transaction logs
+---
 
-🧩 Modular & Scalable Architecture
+## ⚙️ How It Works (High Level)
 
-Clean separation of controllers, services, and repositories
+1. Buyer creates an escrow deal  
+2. Funds are securely locked via a smart contract  
+3. Seller fulfills the agreement  
+4. Buyer confirms delivery  
+5. Funds are released automatically and securely  
 
-Designed for extensibility and microservices readiness
+---
 
-🛠 Tech Stack
+## 🚧 Future Enhancements
 
-Backend
+- AI-based fraud detection engine  
+- Dynamic trust scoring for users  
+- Web dashboard (React / Next.js)  
+- Multi-chain blockchain support  
 
-Java
+---
 
-Spring Boot
+## 👤 Author
 
-Spring Security
+**Anshul Singh Negi**  
+B.Tech CSE | Backend & Blockchain Enthusiast  
 
-JPA / Hibernate
-
-Blockchain
-
-Solidity
-
-Hardhat
-
-Local Ethereum Network
-
-Database
-
-MySQL / PostgreSQL (configurable)
-
-Tools
-
-Maven
-
-Git & GitHub
-
-📂 Project Structure
-ai-escrow-platform/
-│
-├── backend/
-│   ├── controller/
-│   ├── service/
-│   ├── repository/
-│   ├── dto/
-│   └── security/
-│
-├── blockchain/
-│   ├── contracts/
-│   ├── scripts/
-│   └── hardhat.config.js
-│
-└── README.md
-
-⚙️ How It Works (High Level)
-
-Buyer creates an escrow deal
-
-Funds are locked via smart contract
-
-Seller fulfills the agreement
-
-Buyer confirms delivery
-
-Funds are released securely
-
-🚧 Future Enhancements
-
-AI-based fraud detection
-
-Dynamic trust scoring for users
-
-Web dashboard (React / Next.js)
-
-Multi-chain support
-
-👤 Author
-
-Anshul Singh Negi
-B.Tech CSE | Backend & Blockchain Enthusiast
